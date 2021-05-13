@@ -24,7 +24,7 @@ def extractFrames(video, outputDir): #this fuction will extract every frame from
         print("Process in: ", int((cont/frameNumbers)*100), "%", end='\r' )
 
 outputDir = "outImages" #Define folder to save output images
-video = cv2.VideoCapture('./action-assembly-train.mp4') # video path
+video = cv2.VideoCapture('insert-here-your-video') # video path
 success,image = video.read() # readvideo
 fps = video.get(cv2.CAP_PROP_FPS) # frames per second of inserted video
 frameNumbers = video.get(cv2.CAP_PROP_FRAME_COUNT) # total numbers of frame of inserted video
