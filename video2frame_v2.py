@@ -3,6 +3,7 @@
 #Date: 13/05/2021 (One day until my birthday)
 #Use as you want
 #Dependecies: opencv, python 3.x.x and os 
+#Based on Breno Algoritm's 
 import cv2
 import os 
 
